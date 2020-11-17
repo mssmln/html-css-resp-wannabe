@@ -75,25 +75,38 @@ img {
 
 /* CODE MEDIA QUERIES HERE */
 @media screen and (max-width: 420px){
+  .row{
+    width: 100%;
+  }
   .row h1{
-    font-size: 200px;
+    /* or 90px */
+    font-size: 600%;
   }
   #lezioni .row>.left, #lezioni .row>.right, #steps .row>.left, #steps .row>.central, #steps .row>.right{
     float: none;
     width: 100%;
-    font-size: 80px;
+    font-size: 300%;
   }
-  #lezioni .row img, #steps .row>.left img, #steps .row>.central img, #steps .row>.right img{
-    height: 400px;
+  #lezioni .row .left img{
+    width: 70%;
+    height: 100%;
+  }
+  #lezioni .row .right img{
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
   }
   #lezioni .left h3, #lezioni .right h3, #steps .row>.left h3, #steps .row>.central h3, #steps .row>.right h3{
-    font-size: 150px;
+    font-size: 180%;
+  }
+  #steps .row>.left img, #steps .row>.central img, #steps .row>.right img{
+    width: 50%;
+    height: 100%;
+    margin-top: 80px;
   }
 }
 
 
-
-
-
+/* , #steps .row>.left img, #steps .row>.central img, #steps .row>.right img, #why .row>.first img, #why .row>.second img, #why .row>.third img */
 
 /* /CODE MEDIA QUERIES HERE */
