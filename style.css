@@ -74,9 +74,22 @@ img {
 
 
 /* CODE MEDIA QUERIES HERE */
-
-
-
+@media screen and (max-width: 420px){
+  .row h1{
+    font-size: 200px;
+  }
+  #lezioni .row>.left, #lezioni .row>.right, #steps .row>.left, #steps .row>.central, #steps .row>.right{
+    float: none;
+    width: 100%;
+    font-size: 80px;
+  }
+  #lezioni .row img, #steps .row>.left img, #steps .row>.central img, #steps .row>.right img{
+    height: 400px;
+  }
+  #lezioni .left h3, #lezioni .right h3, #steps .row>.left h3, #steps .row>.central h3, #steps .row>.right h3{
+    font-size: 150px;
+  }
+}
 
 
 
